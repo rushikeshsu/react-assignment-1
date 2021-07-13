@@ -1,5 +1,4 @@
 .expense-item{
-    /* padding: 1rem; */
     margin: 1rem;
     display: flex;
     border: 1px solid gray;
@@ -9,34 +8,27 @@
     justify-content: space-between;
 }
 
-.expense-item_date  {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-    border: 1px solid gray;
-}
-
 .expense-item_description {
     display: flex;
     padding: 5px;
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    flex: 85%;
 }
 
 .expense-item_price{
     display: flex;
     border: 1px solid cornsilk;
-    background-color: blueviolet;
+    background-color:  rgb(164, 159, 212);;
     justify-content: center;
     font-size: large;
     font-weight: bold;
     align-items: center;
     border-radius: 15px;
     margin: 2rem;
+    flex: 10%;
+    box-shadow: 5px 10px 20px gray ;
 }
 
 .expense-item_price:hover{

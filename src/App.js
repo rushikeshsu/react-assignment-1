@@ -3,7 +3,7 @@ import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   const expenses = [
-    { title: "Car insurance", amount: 299.0, date: new Date(2021, 6, 12) },
+    { title: "Car Insurance", amount: 299.0, date: new Date(2021, 6, 12) },
     { title: "Music Player", amount: 199.0, date: new Date(2021, 2, 2) },
     { title: "Shoes", amount: 99.0, date: new Date(2021, 1, 1) },
   ];
