@@ -1,10 +1,18 @@
 import ExpenseItem from "./ExpenseItem";
-
+import './Expenses.css';
+import ExpensesFilter from "../ExpensesFilter/ExpensesFilter";
 function Expenses(props) {
   const expenses = props.expenses;
+  const saveChangedYear = (data) =>{ 
+    console.log("In Expenses.js");
+    console.log(data);
+  }
+
   return (
-    <div>
-      
+    <div className='expenses'>
+      <div>
+        <ExpensesFilter onYearChange={saveChangedYear}></ExpensesFilter>
+      </div>
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
