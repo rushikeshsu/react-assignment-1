@@ -5,10 +5,10 @@ const ExpenseForm = (props) => {
     const [title, setTitle]=useState('');
     const [enteredAmount, setEnteredAmount] = useState('');
     const [enteredDate, setEnteredDate] = useState('');
-   
+
+    
     const titleChangeHandler = (event) =>{
-        console.log(event.target.value);
-        setTitle(event.target.value);
+        setEnteredTitle(event.target.value);
     }
     const amountChangeHandler = (event) => {
         setEnteredAmount(event.target.value)
