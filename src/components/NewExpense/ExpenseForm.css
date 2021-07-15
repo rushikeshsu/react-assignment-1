@@ -21,10 +21,15 @@
     max-width: 100%;
   }
   
-  .actions {
-    text-align: right;
+  .actions{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto 25rem;
+  }
+
+  .action_center{
+    align-self: center;
   }
 
   .expense-form {
