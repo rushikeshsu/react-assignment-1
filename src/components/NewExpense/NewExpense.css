@@ -37,3 +37,16 @@ flex:20%  }
     border-radius: 12px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
   }
+
+  .add_expense_btn {
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(209, 161, 241);
+    /* width: 50rem; */
+    /* max-width: 95%; */
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+  }
